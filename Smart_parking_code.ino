@@ -8,7 +8,7 @@ Servo myservo1;
 int IR1 = 2;
 int IR2 = 4;
 
-int Slot = 4;   // Total parking slots
+int Slot = 4;  
 int flag1 = 0;
 int flag2 = 0;
 
@@ -20,7 +20,7 @@ void setup() {
   pinMode(IR2, INPUT_PULLUP);
 
   myservo1.attach(3);
-  myservo1.write(100);  // Gate closed
+  myservo1.write(100); 
 
   lcd.setCursor(0, 0);
   lcd.print(" ARDUINO ");
