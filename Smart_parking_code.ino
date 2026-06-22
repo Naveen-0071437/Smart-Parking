@@ -2,7 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 #include <Servo.h>
 
-LiquidCrystal_I2C lcd(0x27, 16, 2);  // Correct I2C address
+LiquidCrystal_I2C lcd(0x27, 16, 2);  
 Servo myservo1;
 
 int IR1 = 2;
